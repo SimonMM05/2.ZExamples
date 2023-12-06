@@ -1,72 +1,84 @@
-﻿/*
-int x; // Declaration
-x = 3*12; // Instantiering
+﻿// See https://aka.ms/new-console-template for more information
+// Console.WriteLine("2Z er den bedste klasse nogensinde");
 
-int y = 2*4, z = 6*4;
-
-
-Console.WriteLine("x is " + x, "y is " + y, "z is " + z);
-
-float f = 5.2f;
-Console.WriteLine((z + f + x)/y);
-
-int e = Convert.ToInt16(f);
-Console.WriteLine("float to int " + e);
-
-
-using System.Diagnostics;
-
-string str = "Du er grim" + " \nog din far er grim";
-
-Console.WriteLine(str);
-
-bool erDetTirsdag = false;
-Console.WriteLine("Er det tirsdag? " + erDetTirsdag);
+/*Datatypes: int, float, string, bool
+int are whole numbers (-5, 6 , 57894132)
+float decimal numbers
+double decimal numbal bigger than floats
+string is Text in ""
+char is a charcter in ''
+bool is a boolean with a true false value
 */
 
-/*
-int x = 1;
+// int x; //Declared x
+// x = 4; //Instansiated x
 
-if (x == 4)
-{
-    Console.WriteLine("X is 4");
-}
-else if (x == 1)
-{
-    Console.WriteLine("X is 1");
-}
+// int y = 5, z = 6; //Declared and instansiated y and z
 
-else if (x == 2)
-{
-    Console.WriteLine("X is 2");
-}
+// Console.WriteLine("x is " + x + " y is " + y + " z is " + z);
 
-else
-{
-    Console.WriteLine("X is not 1, 2 or 4");
-}
+// float d = 5.5f;
 
-string? input = Console.ReadLine();
-Console.WriteLine("This is the input: \n" + input);
+// Console.WriteLine(d + x - z / y * d % x);
 
-Console.WriteLine("What do you want to multiply 2 with?");
-int number = int.Parse(Console.ReadLine());
-Console.WriteLine("2 * " + number + " = " + (2*number));
-*/
+// int e = Convert.ToInt16(d);
+
+// Console.WriteLine("float to int " + e);
 
 
-/*
-Datatyper
-int x = 4;
-Datatype variable navn = værdi 
-Int er hele tal (-5, 6, 8, 4637926432)
-float decimal tal
-string er tekst in "" fx "Du er grim"
+// string str = "I am a string" + "\nAnd so am I";
 
-\n laver en ny string på en ny linje
-bool is a boolean - sandt eller falsk værdi
+// Console.WriteLine(str);
 
-Logics
+// bool erDetTirsdag = false ;
+// bool erDetOnsdag = true;
+
+
+// Console.WriteLine("Er det tirsdag? " + erDetTirsdag);
+
+////________________________________
+/*Logics
 if statement --> 
-
 */
+
+// int x = 1;
+
+
+// if (x == 4){
+//     Console.WriteLine("X is four");
+// } else if ( x == 1) {
+//     Console.WriteLine("X is one");
+// } else if (x == 2){
+//     Console.WriteLine("X is two");
+// } else {
+//     Console.WriteLine("X is not one, two or four");
+// }
+
+///int.Parse(Console.ReadLine()) -- user input
+///Console.Read(); -->  keeps console open until a key is pressed
+
+
+// string? input = Console.ReadLine();
+// Console.WriteLine("This is the input: \n" + input);
+
+// Console.WriteLine("What do you wnat to multiply 2 with?");
+// int? number = int.Parse(Console.ReadLine());
+// Console.WriteLine("2 * " + number + " = " + (2*number));
+
+// __________________________
+// Convert.ToDouble(<double>) --> converts input to a double
+// Convert.ToInt32(<int>) --> convert to an int
+// Console.WriteLine("{0} {0} {0} {0}", 4);
+// Convert.ToSingle(<float>) --> convert to float
+
+
+
+//_________________________________________________
+// char c = 'a' ;
+// Convert.ToChar(<char>)
+
+// int x = 2;
+// int y = 4;
+
+// Console.WriteLine("I am addin the number " + x + " to the number " + y + " which is " + (x+y));
+// Console.WriteLine("I am adding the number {0} to the number {1} which is {2}", x, y, x+y);
