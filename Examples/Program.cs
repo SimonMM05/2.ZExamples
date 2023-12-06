@@ -11,14 +11,14 @@ Console.WriteLine((z + f + x)/y);
 
 int e = Convert.ToInt16(f);
 Console.WriteLine("float to int " + e);
-*/
+
 
 using System.Diagnostics;
 
 string str = "Du er grim" + " \nog din far er grim";
 
 Console.WriteLine(str);
-
+*/
 
 /* int x = 4;
 Datatype variable navn = værdi 
