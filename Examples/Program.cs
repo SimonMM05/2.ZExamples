@@ -48,12 +48,12 @@ else
 
 string? input = Console.ReadLine();
 Console.WriteLine("This is the input: \n" + input);
-*/
-
 
 Console.WriteLine("What do you want to multiply 2 with?");
 int number = int.Parse(Console.ReadLine());
 Console.WriteLine("2 * " + number + " = " + (2*number));
+*/
+
 
 /*
 Datatyper
